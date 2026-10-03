@@ -17,37 +17,41 @@ msgstr ""
 msgid " to see what I'm shipping 👨‍💻"
 msgstr " to see what I'm shipping 👨‍💻"
 
-#: src/lib/constants.tsx:456
+#: src/lib/constants.tsx:540
 msgid "A modern interior home design platform built in Next.js, helping users explore curated design inspirations, connect with designers, and visualize their dream spaces."
 msgstr "A modern interior home design platform built in Next.js, helping users explore curated design inspirations, connect with designers, and visualize their dream spaces."
 
-#: src/lib/constants.tsx:360
+#: src/lib/constants.tsx:444
 msgid "A production-grade SEO workflow platform serving 60K+ active bloggers with automated link-building pipelines, multi-tier approvals, and a secure digital wallet for contractor payouts."
 msgstr "A production-grade SEO workflow platform serving 60K+ active bloggers with automated link-building pipelines, multi-tier approvals, and a secure digital wallet for contractor payouts."
 
-#: src/lib/constants.tsx:384
+#: src/lib/constants.tsx:468
 msgid "A production-ready full-stack e-commerce platform for clothing brands with product catalogs, shopping carts, order workflows, admin portal — Dockerized and live on Google Cloud VPS."
 msgstr "A production-ready full-stack e-commerce platform for clothing brands with product catalogs, shopping carts, order workflows, admin portal — Dockerized and live on Google Cloud VPS."
 
-#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:28
+#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:53
 msgid "About me "
 msgstr "About me "
 
-#: src/lib/constants.tsx:192
+#: src/lib/constants.tsx:147
+msgid "AI Automation / Product Engineering"
+msgstr "AI Automation / Product Engineering"
+
+#: src/lib/constants.tsx:193
 msgid "AI Integration"
 msgstr "AI Integration"
 
-#: src/lib/constants.tsx:432
+#: src/lib/constants.tsx:516
 msgid "An AI-powered chatbot platform with seamless user subscriptions — built React frontend, integrated full PhonePe payment gateway, and connected AI bot response workflows via REST APIs."
 msgstr "An AI-powered chatbot platform with seamless user subscriptions — built React frontend, integrated full PhonePe payment gateway, and connected AI bot response workflows via REST APIs."
 
-#: src/lib/constants.tsx:408
+#: src/lib/constants.tsx:492
 msgid "An AI-powered outbound automation platform managing email & WhatsApp campaigns at scale — CSV lead uploads, Google Gemini AI copy generation, inbox warmup, and multi-sender management."
 msgstr "An AI-powered outbound automation platform managing email & WhatsApp campaigns at scale — CSV lead uploads, Google Gemini AI copy generation, inbox warmup, and multi-sender management."
 
 #: src/lib/constants.tsx:133
-msgid "Architected and shipped full-stack features across multiple client projects"
-msgstr "Architected and shipped full-stack features across multiple client projects"
+#~ msgid "Architected and shipped full-stack features across multiple client projects"
+#~ msgstr "Architected and shipped full-stack features across multiple client projects"
 
 #: src/lib/constants.tsx:89
 msgid "Architected scalable applications with Next.js, Node.js, and DynamoDB"
@@ -66,14 +70,22 @@ msgid "Bengaluru, India"
 msgstr "Bengaluru, India"
 
 #: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:48
-msgid "Beyond the screen, I believe in learning by doing turning curiosity into production-grade projects and real experiments. I'm open to internships, collaborations, and connecting with fellow builders, mentors, or recruiters. If you're working on something exciting, let's talk!"
-msgstr "Beyond the screen, I believe in learning by doing turning curiosity into production-grade projects and real experiments. I'm open to internships, collaborations, and connecting with fellow builders, mentors, or recruiters. If you're working on something exciting, let's talk!"
+#~ msgid "Beyond the screen, I believe in learning by doing turning curiosity into production-grade projects and real experiments. I'm open to internships, collaborations, and connecting with fellow builders, mentors, or recruiters. If you're working on something exciting, let's talk!"
+#~ msgstr "Beyond the screen, I believe in learning by doing turning curiosity into production-grade projects and real experiments. I'm open to internships, collaborations, and connecting with fellow builders, mentors, or recruiters. If you're working on something exciting, let's talk!"
+
+#: src/lib/constants.tsx:219
+msgid "Build and integrate REST APIs with database-backed workflows across the application lifecycle"
+msgstr "Build and integrate REST APIs with database-backed workflows across the application lifecycle"
 
 #: src/lib/constants.tsx:129
-msgid "Building and scaling full-stack digital products for a creative tech studio."
-msgstr "Building and scaling full-stack digital products for a creative tech studio."
+msgid "Building and leading full-stack digital products and AI-powered solutions for clients."
+msgstr "Building and leading full-stack digital products and AI-powered solutions for clients."
 
-#: src/lib/constants.tsx:180
+#: src/lib/constants.tsx:129
+#~ msgid "Building and scaling full-stack digital products for a creative tech studio."
+#~ msgstr "Building and scaling full-stack digital products for a creative tech studio."
+
+#: src/lib/constants.tsx:181
 msgid "Built and shipped core frontend components with React for the chatbot interface"
 msgstr "Built and shipped core frontend components with React for the chatbot interface"
 
@@ -107,7 +119,7 @@ msgstr "Check out my "
 msgid "Cheers to them!"
 msgstr "Cheers to them!"
 
-#: src/lib/constants.tsx:430
+#: src/lib/constants.tsx:514
 msgid "ChhotuBot.com"
 msgstr "ChhotuBot.com"
 
@@ -119,21 +131,33 @@ msgstr "Click on the asteroids for more details!"
 msgid "Close"
 msgstr "Close"
 
-#: src/lib/constants.tsx:183
+#: src/lib/constants.tsx:222
+msgid "Collaborate on product development, testing, and delivery across frontend and backend systems"
+msgstr "Collaborate on product development, testing, and delivery across frontend and backend systems"
+
+#: src/lib/constants.tsx:184
 msgid "Collaborated on API integrations connecting frontend with AI bot response workflows"
 msgstr "Collaborated on API integrations connecting frontend with AI bot response workflows"
 
 #: src/lib/constants.tsx:139
-msgid "Collaborated remotely with cross-functional teams on product delivery and deadlines"
-msgstr "Collaborated remotely with cross-functional teams on product delivery and deadlines"
+#~ msgid "Collaborated remotely with cross-functional teams on product delivery and deadlines"
+#~ msgstr "Collaborated remotely with cross-functional teams on product delivery and deadlines"
 
 #: src/canvases/space/sections/contactSection/components/ContactForm.tsx:116
 msgid "Contact"
 msgstr "Contact"
 
-#: src/lib/constants.tsx:173
+#: src/lib/constants.tsx:265
+msgid "Contributed changes through a GitHub pull request (#6228)"
+msgstr "Contributed changes through a GitHub pull request (#6228)"
+
+#: src/lib/constants.tsx:174
 msgid "Contributed to ChhotuBot.com — an AI-powered chatbot platform serving real users."
 msgstr "Contributed to ChhotuBot.com — an AI-powered chatbot platform serving real users."
+
+#: src/lib/constants.tsx:252
+msgid "Contributing to an open-source healthcare platform through Java development, testing, and code quality improvements."
+msgstr "Contributing to an open-source healthcare platform through Java development, testing, and code quality improvements."
 
 #: src/components/ui/combobox.tsx:58
 msgid "Couldn't find results"
@@ -144,7 +168,7 @@ msgid "Credits 💖"
 msgstr "Credits 💖"
 
 #: src/components/AnimateDocumentTitle.tsx:28
-#: src/components/StartupScreen.tsx:154
+#: src/components/StartupScreen.tsx:187
 msgid "Deploying..."
 msgstr "Deploying..."
 
@@ -155,6 +179,18 @@ msgstr "Deploying...."
 #: src/components/AnimateDocumentTitle.tsx:28
 msgid "Deploying....."
 msgstr "Deploying....."
+
+#: src/lib/constants.tsx:136
+msgid "Designed and shipped product features, AI-powered workflows, and automation solutions from concept to deployment"
+msgstr "Designed and shipped product features, AI-powered workflows, and automation solutions from concept to deployment"
+
+#: src/lib/constants.tsx:216
+msgid "Develop and ship full-stack features using Java, Spring Boot, and React"
+msgstr "Develop and ship full-stack features using Java, Spring Boot, and React"
+
+#: src/lib/constants.tsx:212
+msgid "Developing and shipping full-stack product features across backend and frontend systems."
+msgstr "Developing and shipping full-stack product features across backend and frontend systems."
 
 #: src/components/ResetSettingsDialogButton.tsx:42
 msgid "Do you want to reset all settings?"
@@ -176,9 +212,13 @@ msgstr "e.g. Order for a website"
 msgid "Enable sounds"
 msgstr "Enable sounds"
 
-#: src/lib/constants.tsx:230
+#: src/lib/constants.tsx:314
 msgid "Equilibrio Techfest — Tech Lead"
 msgstr "Equilibrio Techfest — Tech Lead"
+
+#: src/lib/constants.tsx:126
+msgid "Founder & CTO"
+msgstr "Founder & CTO"
 
 #: src/components/CreditsDialogButton.tsx:68
 #: src/components/CreditsDialogButton.tsx:87
@@ -187,23 +227,35 @@ msgstr "Equilibrio Techfest — Tech Lead"
 msgid "from"
 msgstr "from"
 
-#: src/lib/constants.tsx:170
+#: src/lib/constants.tsx:209
+msgid "Full Stack Engineer Intern"
+msgstr "Full Stack Engineer Intern"
+
+#: src/lib/constants.tsx:171
 msgid "Full Stack Intern"
 msgstr "Full Stack Intern"
 
-#: src/lib/constants.tsx:211
+#: src/lib/constants.tsx:232
+msgid "Full-stack development"
+msgstr "Full-stack development"
+
+#: src/lib/constants.tsx:295
 msgid "GDSC Gen AI Study Jams"
 msgstr "GDSC Gen AI Study Jams"
 
-#: src/lib/constants.tsx:327
+#: src/lib/constants.tsx:411
 msgid "Generative AI Fundamentals"
 msgstr "Generative AI Fundamentals"
+
+#: src/lib/constants.tsx:274
+msgid "Git / GitHub"
+msgstr "Git / GitHub"
 
 #: src/canvases/space/sections/heroSection/components/HeroMyOrigin.tsx:75
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/components/StartupScreen.tsx:168
+#: src/components/StartupScreen.tsx:201
 msgid "Graphics"
 msgstr "Graphics"
 
@@ -223,11 +275,19 @@ msgstr "I am writing to you because..."
 msgid "I originate from India"
 msgstr "I originate from India"
 
-#: src/lib/constants.tsx:268
+#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:33
+msgid "I’m also sharpening my DSA and problem-solving skills, constantly experimenting with new technologies, and learning the best way I know: build it, break it, fix it, repeat."
+msgstr "I’m also sharpening my DSA and problem-solving skills, constantly experimenting with new technologies, and learning the best way I know: build it, break it, fix it, repeat."
+
+#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:29
+msgid "I’m currently working as a Full Stack Engineer Intern at AI Sigma Labs, building real-world projects with React and Java/Spring Boot. Along the way, I’ve built products, led projects, and learned an important engineering truth: sometimes the bug isn’t in the code — it’s hiding three commits ago and laughing at you."
+msgstr "I’m currently working as a Full Stack Engineer Intern at AI Sigma Labs, building real-world projects with React and Java/Spring Boot. Along the way, I’ve built products, led projects, and learned an important engineering truth: sometimes the bug isn’t in the code — it’s hiding three commits ago and laughing at you."
+
+#: src/lib/constants.tsx:352
 msgid "IEEE Winner — India Global Representative"
 msgstr "IEEE Winner — India Global Representative"
 
-#: src/lib/constants.tsx:177
+#: src/lib/constants.tsx:178
 msgid "Integrated a full payment gateway flow for ChhotuBot.com enabling seamless user subscriptions"
 msgstr "Integrated a full payment gateway flow for ChhotuBot.com enabling seamless user subscriptions"
 
@@ -241,11 +301,23 @@ msgstr "Integrated Kafka and Redis for real-time communication and caching"
 msgid "is licensed under"
 msgstr "is licensed under"
 
-#: src/lib/constants.tsx:287
+#: src/lib/constants.tsx:271
+msgid "Java"
+msgstr "Java"
+
+#: src/lib/constants.tsx:228
+msgid "Java / Spring Boot"
+msgstr "Java / Spring Boot"
+
+#: src/lib/constants.tsx:146
+msgid "Java / Spring Boot / REST APIs"
+msgstr "Java / Spring Boot / REST APIs"
+
+#: src/lib/constants.tsx:371
 msgid "Java & Spring Boot — Complete Course"
 msgstr "Java & Spring Boot — Complete Course"
 
-#: src/lib/constants.tsx:382
+#: src/lib/constants.tsx:466
 msgid "KuberFashion"
 msgstr "KuberFashion"
 
@@ -253,7 +325,7 @@ msgstr "KuberFashion"
 msgid "language"
 msgstr "language"
 
-#: src/components/StartupScreen.tsx:162
+#: src/components/StartupScreen.tsx:195
 msgid "Language"
 msgstr "Language"
 
@@ -266,16 +338,28 @@ msgid "Learn more"
 msgstr "Learn more"
 
 #: src/lib/constants.tsx:136
-msgid "Led frontend development using React and Next.js with modern UI/UX standards"
-msgstr "Led frontend development using React and Next.js with modern UI/UX standards"
+#~ msgid "Led frontend development using React and Next.js with modern UI/UX standards"
+#~ msgstr "Led frontend development using React and Next.js with modern UI/UX standards"
 
-#: src/lib/constants.tsx:358
+#: src/lib/constants.tsx:133
+msgid "Led the architecture and development of full-stack products using React, Next.js, and modern backend technologies"
+msgstr "Led the architecture and development of full-stack products using React, Next.js, and modern backend technologies"
+
+#: src/lib/constants.tsx:442
 msgid "LinkManagement.net"
 msgstr "LinkManagement.net"
 
 #: src/contexts/SettingsContext.tsx:56
 msgid "Low graphics"
 msgstr "Low graphics"
+
+#: src/lib/constants.tsx:139
+msgid "Managed client requirements, technical direction, project delivery, and remote cross-functional collaboration"
+msgstr "Managed client requirements, technical direction, project delivery, and remote cross-functional collaboration"
+
+#: src/lib/constants.tsx:273
+msgid "Maven"
+msgstr "Maven"
 
 #: src/canvases/space/sections/contactSection/components/ContactForm.tsx:172
 msgid "Message"
@@ -289,7 +373,7 @@ msgstr "Message must be at least 3 characters long."
 msgid "Message must be at max 2048 characters long."
 msgstr "Message must be at max 2048 characters long."
 
-#: src/lib/constants.tsx:454
+#: src/lib/constants.tsx:538
 msgid "MeterSquared — Interior Design Platform"
 msgstr "MeterSquared — Interior Design Platform"
 
@@ -298,34 +382,54 @@ msgid "Music by"
 msgstr "Music by"
 
 #: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:40
-msgid "My name's Saimands Roy and I'm passionate about building real-world tech that actually matters. Currently, I'm a 3rd year Computer Science Engineering student at ITGGV Bilaspur, on a mission to blend software engineering with artificial intelligence."
-msgstr "My name's Saimands Roy and I'm passionate about building real-world tech that actually matters. Currently, I'm a 3rd year Computer Science Engineering student at ITGGV Bilaspur, on a mission to blend software engineering with artificial intelligence."
+#~ msgid "My name's Saimands Roy and I'm passionate about building real-world tech that actually matters. Currently, I'm a 3rd year Computer Science Engineering student at ITGGV Bilaspur, on a mission to blend software engineering with artificial intelligence."
+#~ msgstr "My name's Saimands Roy and I'm passionate about building real-world tech that actually matters. Currently, I'm a 3rd year Computer Science Engineering student at ITGGV Bilaspur, on a mission to blend software engineering with artificial intelligence."
+
+#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:21
+msgid "My name’s Saimands Roy, and I’m a 4th-year Computer Science Engineering student at Central University of Chhattisgarh, Bilaspur. I love building technology that actually does something useful — because a project that only works on localhost is basically a movie trailer with no movie."
+msgstr "My name’s Saimands Roy, and I’m a 4th-year Computer Science Engineering student at Central University of Chhattisgarh, Bilaspur. I love building technology that actually does something useful — because a project that only works on localhost is basically a movie trailer with no movie."
 
 #: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:44
-msgid "My primary focus lies in full-stack development and AI systems from crafting scalable backends with Spring Boot and microservices, to designing AI agents powered by Generative AI and Prompt Engineering. I also love sharpening my problem-solving edge through DSA and competitive programming."
-msgstr "My primary focus lies in full-stack development and AI systems from crafting scalable backends with Spring Boot and microservices, to designing AI agents powered by Generative AI and Prompt Engineering. I also love sharpening my problem-solving edge through DSA and competitive programming."
+#~ msgid "My primary focus lies in full-stack development and AI systems from crafting scalable backends with Spring Boot and microservices, to designing AI agents powered by Generative AI and Prompt Engineering. I also love sharpening my problem-solving edge through DSA and competitive programming."
+#~ msgstr "My primary focus lies in full-stack development and AI systems from crafting scalable backends with Spring Boot and microservices, to designing AI agents powered by Generative AI and Prompt Engineering. I also love sharpening my problem-solving edge through DSA and competitive programming."
+
+#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:25
+msgid "My world revolves around software engineering, backend, and full-stack development. I enjoy turning ideas into scalable systems using Java, Spring Boot, REST APIs, and microservices, while using React and modern frontend technologies to give those systems a face. Lately, I’ve also been exploring Generative AI, AI agents, and Prompt Engineering — teaching machines to think a little smarter, behave a little better, and hopefully stop giving confidently wrong answers."
+msgstr "My world revolves around software engineering, backend, and full-stack development. I enjoy turning ideas into scalable systems using Java, Spring Boot, REST APIs, and microservices, while using React and modern frontend technologies to give those systems a face. Lately, I’ve also been exploring Generative AI, AI agents, and Prompt Engineering — teaching machines to think a little smarter, behave a little better, and hopefully stop giving confidently wrong answers."
 
 #: src/lib/constants.tsx:101
 msgid "Next.js / Node.js"
 msgstr "Next.js / Node.js"
 
 #: src/lib/constants.tsx:146
-msgid "Node.js / REST APIs"
-msgstr "Node.js / REST APIs"
+#~ msgid "Node.js / REST APIs"
+#~ msgstr "Node.js / REST APIs"
+
+#: src/lib/constants.tsx:275
+msgid "Open-source collaboration"
+msgstr "Open-source collaboration"
+
+#: src/lib/constants.tsx:249
+msgid "Open-Source Contributor"
+msgstr "Open-Source Contributor"
 
 #: src/canvases/space/sections/jobExperienceSection/components/JobExperienceDownloadResume.tsx:75
 msgid "OR"
 msgstr "OR"
 
-#: src/lib/constants.tsx:406
+#: src/lib/constants.tsx:490
 msgid "OutreachOS — prane.one"
 msgstr "OutreachOS — prane.one"
 
-#: src/lib/constants.tsx:190
+#: src/canvases/space/sections/heroSection/components/HeroAboutMe.tsx:37
+msgid "Outside the code editor, you’ll usually find me playing cricket, chess, or talking about ideas worth building. I’m here to build things that matter, learn relentlessly, and have a little fun while doing it. After all, every great developer needs a good story — and I’m still writing mine."
+msgstr "Outside the code editor, you’ll usually find me playing cricket, chess, or talking about ideas worth building. I’m here to build things that matter, learn relentlessly, and have a little fun while doing it. After all, every great developer needs a good story — and I’m still writing mine."
+
+#: src/lib/constants.tsx:191
 msgid "Payment Gateway Integration"
 msgstr "Payment Gateway Integration"
 
-#: src/lib/constants.tsx:249
+#: src/lib/constants.tsx:333
 msgid "Placement Head — Central University"
 msgstr "Placement Head — Central University"
 
@@ -333,7 +437,12 @@ msgstr "Placement Head — Central University"
 msgid "Planet textures by"
 msgstr "Planet textures by"
 
-#: src/lib/constants.tsx:307
+#: src/lib/constants.tsx:207
+#: src/lib/constants.tsx:247
+msgid "Present"
+msgstr "Present"
+
+#: src/lib/constants.tsx:391
 msgid "Problem Solving Certificate"
 msgstr "Problem Solving Certificate"
 
@@ -341,7 +450,11 @@ msgstr "Problem Solving Certificate"
 msgid "Projects"
 msgstr "Projects"
 
-#: src/lib/constants.tsx:189
+#: src/lib/constants.tsx:229
+msgid "React"
+msgstr "React"
+
+#: src/lib/constants.tsx:190
 msgid "React / Frontend Development"
 msgstr "React / Frontend Development"
 
@@ -349,13 +462,26 @@ msgstr "React / Frontend Development"
 msgid "React / Next.js"
 msgstr "React / Next.js"
 
-#: src/lib/constants.tsx:169
+#: src/lib/constants.tsx:256
+msgid "Refactored an existing Java test into 4 focused test methods for improved test organization"
+msgstr "Refactored an existing Java test into 4 focused test methods for improved test organization"
+
+#: src/lib/constants.tsx:170
+#: src/lib/constants.tsx:248
 msgid "Remote"
 msgstr "Remote"
 
 #: src/lib/constants.tsx:148
-msgid "Remote collaboration"
-msgstr "Remote collaboration"
+#~ msgid "Remote collaboration"
+#~ msgstr "Remote collaboration"
+
+#: src/lib/constants.tsx:149
+msgid "Remote Collaboration / Technical Leadership"
+msgstr "Remote Collaboration / Technical Leadership"
+
+#: src/lib/constants.tsx:208
+msgid "Remote, Bengaluru, India"
+msgstr "Remote, Bengaluru, India"
 
 #: src/lib/constants.tsx:125
 msgid "Remote, India"
@@ -365,11 +491,19 @@ msgstr "Remote, India"
 msgid "Reset all"
 msgstr "Reset all"
 
-#: src/lib/constants.tsx:191
+#: src/lib/constants.tsx:259
+msgid "Resolved 1 FIXME identified in the codebase"
+msgstr "Resolved 1 FIXME identified in the codebase"
+
+#: src/lib/constants.tsx:230
+msgid "REST APIs"
+msgstr "REST APIs"
+
+#: src/lib/constants.tsx:192
 msgid "REST APIs / Node.js"
 msgstr "REST APIs / Node.js"
 
-#: src/components/ScrollIndicator.tsx:44
+#: src/components/ScrollIndicator.tsx:61
 msgid "SCROLL"
 msgstr "SCROLL"
 
@@ -382,8 +516,8 @@ msgid "Send"
 msgstr "Send"
 
 #: src/lib/constants.tsx:126
-msgid "Senior Software Engineer"
-msgstr "Senior Software Engineer"
+#~ msgid "Senior Software Engineer"
+#~ msgstr "Senior Software Engineer"
 
 #: src/canvases/space/sections/certificatesSection/components/CertificatesList.tsx:89
 msgid "Show less"
@@ -403,7 +537,7 @@ msgstr "Something went wrong with sending the mail!"
 msgid "Sound Effect by"
 msgstr "Sound Effect by"
 
-#: src/components/StartupScreen.tsx:174
+#: src/components/StartupScreen.tsx:207
 msgid "Sounds"
 msgstr "Sounds"
 
@@ -411,7 +545,11 @@ msgstr "Sounds"
 msgid "Source code 💻"
 msgstr "Source code 💻"
 
-#: src/components/StartupScreen.tsx:185
+#: src/lib/constants.tsx:231
+msgid "SQL / NoSQL Databases"
+msgstr "SQL / NoSQL Databases"
+
+#: src/components/StartupScreen.tsx:218
 msgid "START"
 msgstr "START"
 
@@ -435,7 +573,7 @@ msgstr "Successfully sent the mail!"
 msgid "System Architecture"
 msgstr "System Architecture"
 
-#: src/lib/constants.tsx:147
+#: src/lib/constants.tsx:148
 msgid "Tailwind CSS"
 msgstr "Tailwind CSS"
 
@@ -446,6 +584,14 @@ msgstr "Team Leadership"
 #: src/components/ResetSettingsDialogButton.tsx:45
 msgid "This action cannot be undone. This will permanently delete all of your local storage data and totally refresh the experience."
 msgstr "This action cannot be undone. This will permanently delete all of your local storage data and totally refresh the experience."
+
+#: src/lib/constants.tsx:272
+msgid "Unit Testing"
+msgstr "Unit Testing"
+
+#: src/lib/constants.tsx:262
+msgid "Verified 55 unit tests using Maven to ensure changes remained reliable"
+msgstr "Verified 55 unit tests using Maven to ensure changes remained reliable"
 
 #: src/canvases/space/sections/projectsSection/components/ProjectsItemCard.tsx:115
 msgid "View it live 🚀"
@@ -464,5 +610,9 @@ msgid "Web Development Lead & Core Member"
 msgstr "Web Development Lead & Core Member"
 
 #: src/canvases/space/sections/jobExperienceSection/components/JobExperienceTitle.tsx:41
-msgid "Where I've Shipped 🚀"
-msgstr "Where I've Shipped 🚀"
+#~ msgid "Where I've Shipped 🚀"
+#~ msgstr "Where I've Shipped 🚀"
+
+#: src/canvases/space/sections/jobExperienceSection/components/JobExperienceTitle.tsx:42
+msgid "Where I've Worked 🚀"
+msgstr "Where I've Worked 🚀"
