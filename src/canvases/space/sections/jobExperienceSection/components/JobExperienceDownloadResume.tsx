@@ -42,7 +42,7 @@ function JobExperienceDownloadResume() {
       >
         {/* Download resume */}
         <a
-          href="/Saimands_Roy_FullStack.pdf"
+          href="/Saimands_Google.pdf"
           tabIndex={-1}
           target="_blank"
           download

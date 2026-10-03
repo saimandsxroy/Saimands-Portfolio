@@ -20,7 +20,7 @@ function HeroWelcomeText() {
   const isRendered = useAnimateObjectVisibility(
     materialsToHideRefs,
     [heroWelcomeTextScrollProgress, heroWelcomeTextScrollProgress + 1],
-    [heroWelcomeTextScrollProgress, heroWelcomeTextScrollProgress + 2]
+    [heroWelcomeTextScrollProgress, heroWelcomeTextScrollProgress + 3]
   );
   if (!isRendered) return;
 

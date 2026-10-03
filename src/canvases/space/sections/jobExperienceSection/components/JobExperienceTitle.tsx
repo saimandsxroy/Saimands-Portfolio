@@ -21,7 +21,8 @@ function JobExperienceTitle() {
     [jobExperienceTitleScrollProgress, jobExperienceTitleScrollProgress],
     undefined,
     {
-      duration: previousScrollProgress === heroMyOriginScrollProgress ? 0.5 : 1,
+      duration: previousScrollProgress === heroMyOriginScrollProgress ? 1 : 1,
+      delay: previousScrollProgress === heroMyOriginScrollProgress ? 0.75 : 0,
     }
   );
 
@@ -38,7 +39,7 @@ function JobExperienceTitle() {
         }}
         className="w-max max-w-[min(100vw-1.5rem,24rem)] text-red-gradient text-center opacity-0 text-2xl xs:text-3xl sm:text-6xl flex items-center gap-2 font-bold"
       >
-        <span>{t`Where I've Shipped 🚀`}</span>
+        <span>{t`Where I've Worked 🚀`}</span>
       </h3>
     </Html>
   );

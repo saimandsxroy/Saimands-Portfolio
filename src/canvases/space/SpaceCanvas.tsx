@@ -121,17 +121,17 @@ function SpaceCanvas() {
           <LazySection component={HeroSection} shouldLoad={scrollProgress >= 0} />
           <LazySection
             component={JobExperienceSection}
-            shouldLoad={scrollProgress >= 2}
+            shouldLoad={scrollProgress >= 1}
           />
           <LazySection
             component={CertificatesSection}
-            shouldLoad={scrollProgress >= 5}
+            shouldLoad={scrollProgress >= 4}
           />
           <LazySection
             component={ProjectsSection}
-            shouldLoad={scrollProgress >= 8}
+            shouldLoad={scrollProgress >= 7}
           />
-          <LazySection component={ContactSection} shouldLoad={scrollProgress >= 10} />
+          <LazySection component={ContactSection} shouldLoad={scrollProgress >= 9} />
         </SpaceContextProvider>
       </Suspense>
     </Canvas>

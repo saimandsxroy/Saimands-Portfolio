@@ -81,14 +81,20 @@ export function ScrollContextProvider({
             isScrollingDown
           ) {
             setIsScrollingPaused(true);
-            return prev + scrollIncrementation;
+            const next = prev + scrollIncrementation;
+            // Skip closeup step (1) — go straight from welcome (0) to about me (2)
+            if (next === 1) return 2;
+            return next;
           }
           if (
             prev - scrollIncrementation >= minScrollProgress &&
             !isScrollingDown
           ) {
             setIsScrollingPaused(true);
-            return prev - scrollIncrementation;
+            const next = prev - scrollIncrementation;
+            // Skip closeup step (1) — go straight from about me (2) to welcome (0)
+            if (next === 1) return 0;
+            return next;
           }
 
           return prev;

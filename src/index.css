@@ -184,3 +184,16 @@
   font-family: "Noto Color Emoji";
   src: url("/assets/fonts/Noto_Color_Emoji_Regular.ttf");
 }
+
+/* Custom Marquee */
+@keyframes auto-scroll-y {
+  0%, 6.66% { transform: translateY(0); }
+  100% { transform: translateY(calc(-50% - 0.75rem)); }
+}
+
+@utility animate-auto-scroll-y {
+  animation: auto-scroll-y 60s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}

@@ -8,10 +8,14 @@ function useJobExperienceListAsteroidsEntryAnimations({
   beniaminekAsteroidRef,
   escAsteroidRef,
   ruigrokAsteroidRef,
+  aisigmaAsteroidRef,
+  openmrsAsteroidRef,
 }: {
   beniaminekAsteroidRef: React.RefObject<THREE.Group<THREE.Object3DEventMap>>;
   escAsteroidRef: React.RefObject<THREE.Group<THREE.Object3DEventMap>>;
   ruigrokAsteroidRef: React.RefObject<THREE.Group<THREE.Object3DEventMap>>;
+  aisigmaAsteroidRef: React.RefObject<THREE.Group<THREE.Object3DEventMap>>;
+  openmrsAsteroidRef: React.RefObject<THREE.Group<THREE.Object3DEventMap>>;
 }) {
   const { scrollProgress } = useScrollContext();
 
@@ -19,71 +23,34 @@ function useJobExperienceListAsteroidsEntryAnimations({
     if (
       !beniaminekAsteroidRef.current ||
       !escAsteroidRef.current ||
-      !ruigrokAsteroidRef.current
+      !ruigrokAsteroidRef.current ||
+      !aisigmaAsteroidRef.current ||
+      !openmrsAsteroidRef.current
     )
       return;
 
     // scrollProgress of 5 === Mars work experience list (scene #6)
+    // Coords are now relative to the orbitGroup at [10, 0, -90]
     if (scrollProgress === 5) {
-      // Beniaminek
-      gsap.to(beniaminekAsteroidRef.current.position, {
-        ease: "sine.out",
-        x: 13,
-        y: 1,
-        z: -90,
-        duration: 3,
-      });
-
-      // ESC
-      gsap.to(escAsteroidRef.current.position, {
-        ease: "sine.out",
-        x: 9.95,
-        y: 2.75,
-        z: -90,
-        duration: 3,
-      });
-
-      // ruigrok
-      gsap.to(ruigrokAsteroidRef.current.position, {
-        ease: "sine.out",
-        x: 6,
-        y: 0.8,
-        z: -90,
-        duration: 3,
-      });
+      gsap.to(beniaminekAsteroidRef.current.position, { ease: "sine.out", x: 6.5, y: 0, z: 0, duration: 3 });
+      gsap.to(escAsteroidRef.current.position, { ease: "sine.out", x: 2.0, y: 2, z: 6.18, duration: 3 });
+      gsap.to(ruigrokAsteroidRef.current.position, { ease: "sine.out", x: -5.26, y: -1, z: 3.82, duration: 3 });
+      gsap.to(aisigmaAsteroidRef.current.position, { ease: "sine.out", x: -5.26, y: 2, z: -3.82, duration: 3 });
+      gsap.to(openmrsAsteroidRef.current.position, { ease: "sine.out", x: 2.0, y: -1, z: -6.18, duration: 3 });
     } else {
-      // Beniaminek
-      gsap.to(beniaminekAsteroidRef.current.position, {
-        ease: "sine.in",
-        x: 25,
-        y: 0,
-        z: -80,
-        duration: 3,
-      });
-
-      // ESC
-      gsap.to(escAsteroidRef.current.position, {
-        ease: "sine.out",
-        x: 9.95,
-        y: 10,
-        z: -80,
-        duration: 3,
-      });
-
-      // ruigrok
-      gsap.to(ruigrokAsteroidRef.current.position, {
-        ease: "sine.out",
-        x: -15,
-        y: 0,
-        z: -80,
-        duration: 3,
-      });
+      gsap.to(beniaminekAsteroidRef.current.position, { ease: "sine.in", x: 15, y: 0, z: 10, duration: 3 });
+      gsap.to(escAsteroidRef.current.position, { ease: "sine.out", x: 0, y: 10, z: 10, duration: 3 });
+      gsap.to(ruigrokAsteroidRef.current.position, { ease: "sine.out", x: -25, y: 0, z: 10, duration: 3 });
+      gsap.to(aisigmaAsteroidRef.current.position, { ease: "sine.out", x: -15, y: 10, z: 10, duration: 3 });
+      gsap.to(openmrsAsteroidRef.current.position, { ease: "sine.out", x: 5, y: -10, z: 10, duration: 3 });
     }
   }, [
     scrollProgress,
     beniaminekAsteroidRef,
     escAsteroidRef,
     ruigrokAsteroidRef,
+    aisigmaAsteroidRef,
+    openmrsAsteroidRef,
   ]);
 }
 

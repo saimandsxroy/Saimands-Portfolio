@@ -564,14 +564,17 @@ function CameraControls() {
        * Earth hero welcome text overview
        */
       case heroWelcomeTextScrollProgress: {
-        const totalAnimationDuration = 1;
+        if (lastAnimationPlayed === heroWelcomeTextScrollProgress) return;
+
+        // Take longer when returning from About Me, otherwise fast on initial load
+        const totalAnimationDuration = previousScrollProgress === heroAboutMeScrollProgress ? 3.5 : 1;
 
         // Unpause further scrolling when animation is finished
         gsap.killTweensOf(handleUnpauseScrolling);
         gsap.delayedCall(totalAnimationDuration, handleUnpauseScrolling);
 
         gsap.to(camera.position, {
-          ease: "sine.inOut",
+          ease: previousScrollProgress === heroAboutMeScrollProgress ? "power4.out" : "sine.inOut",
           x: 0.51,
           y: 0.6,
           z: -19.85,
@@ -579,13 +582,14 @@ function CameraControls() {
         });
 
         gsap.to(camera.rotation, {
-          ease: "sine.inOut",
+          ease: previousScrollProgress === heroAboutMeScrollProgress ? "power4.out" : "sine.inOut",
           x: 0.0,
           y: 2.78,
           z: 0.0,
           duration: totalAnimationDuration,
         });
 
+        setLastAnimationPlayed(heroWelcomeTextScrollProgress);
         break;
       }
     }

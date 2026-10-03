@@ -15,6 +15,31 @@ function HeroAboutMe() {
     heroAboutMeScrollProgress,
   ]);
 
+  const aboutContent = (
+    <>
+      <span>
+        {t`My name’s Saimands Roy, and I’m a 4th-year Computer Science Engineering student at Central University of Chhattisgarh, Bilaspur. I love building technology that actually does something useful — because a project that only works on localhost is basically a movie trailer with no movie.`}
+        <span className="font-emoji text-foreground"> 😄</span>
+      </span>
+      <span>
+        {t`My world revolves around software engineering, backend, and full-stack development. I enjoy turning ideas into scalable systems using Java, Spring Boot, REST APIs, and microservices, while using React and modern frontend technologies to give those systems a face. Lately, I’ve also been exploring Generative AI, AI agents, and Prompt Engineering — teaching machines to think a little smarter, behave a little better, and hopefully stop giving confidently wrong answers.`}
+        <span className="font-emoji text-foreground"> 🤖</span>
+      </span>
+      <span>
+        {t`I’m currently working as a Full Stack Engineer Intern at AI Sigma Labs, building real-world projects with React and Java/Spring Boot. Along the way, I’ve built products, led projects, and learned an important engineering truth: sometimes the bug isn’t in the code — it’s hiding three commits ago and laughing at you.`}
+        <span className="font-emoji text-foreground"> 🐛</span>
+      </span>
+      <span>
+        {t`I’m also sharpening my DSA and problem-solving skills, constantly experimenting with new technologies, and learning the best way I know: build it, break it, fix it, repeat.`}
+        <span className="font-emoji text-foreground"> 🚀</span>
+      </span>
+      <span>
+        {t`Outside the code editor, you’ll usually find me playing cricket, chess, or talking about ideas worth building. I’m here to build things that matter, learn relentlessly, and have a little fun while doing it. After all, every great developer needs a good story — and I’m still writing mine.`}
+        <span className="font-emoji text-foreground"> 🎬✨</span>
+      </span>
+    </>
+  );
+
   return (
     <group>
       {/* Title */}
@@ -30,25 +55,17 @@ function HeroAboutMe() {
         </h1>
 
         {/* Description */}
-        <p
+        <div
           ref={(el) => {
-            materialsToHideRefs.current.push(el as HTMLParagraphElement);
+            materialsToHideRefs.current.push(el as HTMLDivElement);
           }}
-          className="opacity-0 text-gold-gradient text-sm xs:text-base sm:text-xl font-semibold w-[min(100vw-1.5rem,18rem)] xs:w-[min(100vw-1.5rem,22rem)] sm:w-sm flex flex-col gap-3 sm:gap-4 leading-relaxed"
+          className="opacity-0 text-slate-200 text-sm xs:text-base sm:text-xl font-medium w-[min(100vw-1.5rem,18rem)] xs:w-[min(100vw-1.5rem,22rem)] sm:w-sm h-[75vh] overflow-hidden pointer-events-auto"
         >
-          <span>
-            {t`My name's Saimands Roy and I'm passionate about building real-world tech that actually matters. Currently, I'm a 3rd year Computer Science Engineering student at ITGGV Bilaspur, on a mission to blend software engineering with artificial intelligence.`}
-            <span className="font-emoji text-foreground">🎓</span>
-          </span>
-          <span>
-            {t`My primary focus lies in full-stack development and AI systems from crafting scalable backends with Spring Boot and microservices, to designing AI agents powered by Generative AI and Prompt Engineering. I also love sharpening my problem-solving edge through DSA and competitive programming.`}
-            <span className="font-emoji text-foreground">🎨</span>
-          </span>
-          <span>
-            {t`Beyond the screen, I believe in learning by doing turning curiosity into production-grade projects and real experiments. I'm open to internships, collaborations, and connecting with fellow builders, mentors, or recruiters. If you're working on something exciting, let's talk!`}
-            <span className="font-emoji text-foreground">✨</span>
-          </span>
-        </p>
+          <div className="flex flex-col gap-3 sm:gap-4 leading-relaxed animate-auto-scroll-y">
+            {aboutContent}
+            {aboutContent}
+          </div>
+        </div>
       </Html>
     </group>
   );

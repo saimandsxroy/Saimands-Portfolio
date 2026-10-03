@@ -65,7 +65,8 @@ function useAnimateObjectVisibility(
         gsap.killTweensOf(material);
       });
 
-      gsap.killTweensOf(showIsRenderedDelayedCall, hideIsRenderedDelayedCall);
+      if (showIsRenderedDelayedCall) showIsRenderedDelayedCall.kill();
+      if (hideIsRenderedDelayedCall) hideIsRenderedDelayedCall.kill();
     };
   }, [
     scrollProgress,
@@ -74,6 +75,7 @@ function useAnimateObjectVisibility(
     isVisibleThreshold,
     showOptions,
     hideOptions,
+    isRendered,
   ]);
 
   return isRendered;

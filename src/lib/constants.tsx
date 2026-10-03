@@ -22,12 +22,12 @@ export const EMAILJS_TEMPLATE_ID = "template_6jp5ybh";
 
 // Links
 export const CONTACT_EMAIL = "saimandsroy@gmail.com";
-export const GITHUB_LINK = "https://github.com/Saimandsroy";
+export const GITHUB_LINK = "https://github.com/saimandsxroy";
 export const GITHUB_AVATAR_LINK =
-  "https://github.com/Saimandsroy.png";
+  "https://github.com/saimandsxroy.png";
 export const INSTAGRAM_LINK = "https://www.instagram.com/mat.muszarski/";
 export const LINKEDIN_LINK =
-  "https://www.linkedin.com/in/saimands-roy-887a78234/";
+  "https://linkedin.com/in/saimandsxroy";
 export const WEBSITE_LINK = "https://matmuszarski.space";
 export const OLD_PORTFOLIO_WEBSITE_LINK = "https://2d.matmuszarski.space";
 
@@ -67,13 +67,13 @@ export const JOB_EXPERIENCE_LIST = {
     learnMoreUrl: "https://kuberfashions.in",
     countryEmoji: "🇮🇳",
     StartedDate: () =>
-      i18n.date(new Date("08-01-2025"), {
+      i18n.date(new Date("04-01-2025"), {
         day: "2-digit",
         month: "2-digit",
         year: "2-digit",
       }),
     EndedDate: () =>
-      i18n.date(new Date("10-31-2025"), {
+      i18n.date(new Date("09-30-2025"), {
         day: "2-digit",
         month: "2-digit",
         year: "2-digit",
@@ -111,41 +111,42 @@ export const JOB_EXPERIENCE_LIST = {
     learnMoreUrl: "https://femur.studio",
     countryEmoji: "🇮🇳",
     StartedDate: () =>
-      i18n.date(new Date("12-01-2025"), {
+      i18n.date(new Date("11-01-2025"), {
         day: "2-digit",
         month: "2-digit",
         year: "2-digit",
       }),
     EndedDate: () =>
-      i18n.date(new Date("03-31-2026"), {
+      i18n.date(new Date("07-31-2026"), {
         day: "2-digit",
         month: "2-digit",
         year: "2-digit",
       }),
     Location: () => t`Remote, India`,
-    Occupation: () => t`Senior Software Engineer`,
+    Occupation: () => t`Founder & CTO`,
     company: "Femur Studio",
     Description: () =>
-      t`Building and scaling full-stack digital products for a creative tech studio.`,
+      t`Building and leading full-stack digital products and AI-powered solutions for clients.`,
     Responsibilities: () => (
       <>
         <li>
-          {t`Architected and shipped full-stack features across multiple client projects`}
+          {t`Led the architecture and development of full-stack products using React, Next.js, and modern backend technologies`}
         </li>
         <li>
-          {t`Led frontend development using React and Next.js with modern UI/UX standards`}
+          {t`Designed and shipped product features, AI-powered workflows, and automation solutions from concept to deployment`}
         </li>
         <li>
-          {t`Collaborated remotely with cross-functional teams on product delivery and deadlines`}
+          {t`Managed client requirements, technical direction, project delivery, and remote cross-functional collaboration`}
         </li>
       </>
     ),
     SkillsNeeded: () => (
       <>
         <li>{t`React / Next.js`}</li>
-        <li>{t`Node.js / REST APIs`}</li>
+        <li>{t`Java / Spring Boot / REST APIs`}</li>
+        <li>{t`AI Automation / Product Engineering`}</li>
         <li>{t`Tailwind CSS`}</li>
-        <li>{t`Remote collaboration`}</li>
+        <li>{t`Remote Collaboration / Technical Leadership`}</li>
       </>
     ),
   } as JobExperienceItemDialogData,
@@ -193,6 +194,89 @@ export const JOB_EXPERIENCE_LIST = {
       </>
     ),
   } as JobExperienceItemDialogData,
+  aisigma: {
+    logoImgSrc: "/assets/textures/asteroids/aisigma-logo.png",
+    learnMoreUrl: "https://sigmaailabs.in",
+    countryEmoji: "🇮🇳",
+    StartedDate: () =>
+      i18n.date(new Date("07-01-2026"), {
+        day: "2-digit",
+        month: "2-digit",
+        year: "2-digit",
+      }),
+    EndedDate: () => t`Present`,
+    Location: () => t`Remote, Bengaluru, India`,
+    Occupation: () => t`Full Stack Engineer Intern`,
+    company: "AI Sigma Labs",
+    Description: () =>
+      t`Developing and shipping full-stack product features across backend and frontend systems.`,
+    Responsibilities: () => (
+      <>
+        <li>
+          {t`Develop and ship full-stack features using Java, Spring Boot, and React`}
+        </li>
+        <li>
+          {t`Build and integrate REST APIs with database-backed workflows across the application lifecycle`}
+        </li>
+        <li>
+          {t`Collaborate on product development, testing, and delivery across frontend and backend systems`}
+        </li>
+      </>
+    ),
+    SkillsNeeded: () => (
+      <>
+        <li>{t`Java / Spring Boot`}</li>
+        <li>{t`React`}</li>
+        <li>{t`REST APIs`}</li>
+        <li>{t`SQL / NoSQL Databases`}</li>
+        <li>{t`Full-stack development`}</li>
+      </>
+    ),
+  } as JobExperienceItemDialogData,
+
+  openmrs: {
+    logoImgSrc: "/assets/textures/asteroids/openmrs-logo.png",
+    learnMoreUrl: "https://openmrs.org",
+    countryEmoji: "🌐",
+    StartedDate: () =>
+      i18n.date(new Date("09-01-2025"), {
+        day: "2-digit",
+        month: "2-digit",
+        year: "2-digit",
+      }),
+    EndedDate: () => t`Present`,
+    Location: () => t`Remote`,
+    Occupation: () => t`Open-Source Contributor`,
+    company: "OpenMRS",
+    Description: () =>
+      t`Contributing to an open-source healthcare platform through Java development, testing, and code quality improvements.`,
+    Responsibilities: () => (
+      <>
+        <li>
+          {t`Refactored an existing Java test into 4 focused test methods for improved test organization`}
+        </li>
+        <li>
+          {t`Resolved 1 FIXME identified in the codebase`}
+        </li>
+        <li>
+          {t`Verified 55 unit tests using Maven to ensure changes remained reliable`}
+        </li>
+        <li>
+          {t`Contributed changes through a GitHub pull request (#6228)`}
+        </li>
+      </>
+    ),
+    SkillsNeeded: () => (
+      <>
+        <li>{t`Java`}</li>
+        <li>{t`Unit Testing`}</li>
+        <li>{t`Maven`}</li>
+        <li>{t`Git / GitHub`}</li>
+        <li>{t`Open-source collaboration`}</li>
+      </>
+    ),
+  } as JobExperienceItemDialogData,
+
 };
 
 // Certificates
